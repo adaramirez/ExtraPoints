@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+}
+
+
+div {
+	background-color: white;
+	float: left;
+	border: solid 2px white;
+	position: relative;
+	padding: 2em;
+	text-align: center;
+	box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;	
+}
+
+div:hover, h2:hover, img:hover {
+	background-color: rgb(231, 231, 231);
+	transform: scale(1.1);
+	color: rgb(150, 148, 148);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: rgb(139, 139, 139);
+    font-family: 'Dancing Script', cursive;
+}
+
+nav div {
+	height: 45em;
+	width: 15em;
+	display: inline-block;
+}

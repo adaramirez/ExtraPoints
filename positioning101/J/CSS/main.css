@@ -1,0 +1,45 @@
+body{
+	background-color: rgb(216, 149, 216);
+}
+
+#container {
+	width:900px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#nav {
+	height:50px;
+	background-color: rgb(137, 248, 94);
+}
+#nav > a {
+	display:block;
+	float:left;
+	height:50px;
+	padding: 0 20px;
+	outline: 1px solid rgb(252, 250, 250);
+}
+#content {
+	position: relative;
+	padding: 50px 250px 50px 50px;	
+}
+#aside {
+	position: absolute;
+	width:200px;
+	right:-30px;
+	top:30px;
+	background-color: rgb(252, 105, 174);
+	color:white;
+}
+
+#aside img{
+	width: 100%;
+}
+
+#footer {
+	position:fixed;
+	bottom:0;
+	width:900px;
+	background-color: rgb(22, 116, 145); 
+}
+

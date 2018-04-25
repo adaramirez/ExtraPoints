@@ -1,0 +1,20 @@
+#box_1{
+    background-color: rgb(248, 201, 209);
+    height: 200px;
+    position: static;
+    width: 200px;
+}
+
+#box_2{
+    background-color: rgb(226, 151, 164);
+    height: 200px;
+    position: static;
+    width: 200px;
+}
+
+#box_3{
+    background-color: rgb(199, 112, 163);
+    height: 200px;
+    position: static;
+    width: 200px;
+}
